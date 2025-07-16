@@ -142,7 +142,8 @@ span{
   max-width: 400px;
   max-height: 350px;
   display: inline-block;
-  margin-top: 120px;
+  margin-top: 140px;
+  margin-left: 30px;
   border-radius: 20px;
   
   
@@ -160,7 +161,7 @@ width: 300px;
 height: 48px;
 padding: 5 30 5 30;
 display: inline-block;
-margin-top: 10px;
+margin-top: 5px;
 transition: .4s ease;
 }
 
