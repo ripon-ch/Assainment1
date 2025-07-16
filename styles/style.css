@@ -1,0 +1,172 @@
+/*global*/
+*{
+  max-width: 1440px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.montserrat-tx {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* common css*/
+.container{
+  max-width: 1440px;
+  margin: auto;
+}
+.btn{
+  border: none;
+  background: orangered;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: montserrat-tx;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: .4 ease;
+  
+  
+}
+
+/*nav style start */
+.navbar{
+  background: url(/assets/images/bg-white.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1440px;
+  height: 698px;
+  
+  
+}
+.nav-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 0px 50px 0px;
+  
+}
+.logo{
+  max-width: 150px;
+  max-height: 200px;
+  cursor: pointer;
+}
+
+.nav-item a .btn:hover{
+  background: #339799;
+}
+.info{
+  text-align: center;
+  margin-top: 100px;
+  max-width: 905px;
+  max-height: 268px;
+  
+  
+}
+span{
+  color: orangered;
+}
+
+.info h3{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info h1{
+  font-size: 80px;
+  font-weight: 800;
+  font-family: montserrat-tx;
+  margin-bottom: 10px;
+}
+
+.info p{
+  font-size: 24px;
+  margin-bottom: 10px;
+  line-height: 5px;
+}
+.info .btn{
+  padding: 4px 20px;
+  font-size: 50px;
+  margin-top: 10px;
+  font-weight: 700;
+  transition: .4s ease;
+}
+.info a .btn:hover{
+  background: #339799;
+}
+
+.action-text{
+  max-width: 905px;
+  max-height: 237px;
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin-top: 100px;
+  
+}
+.action {
+  position: absolute;
+  width: 1140px;
+  height: 328px;
+  left: 141px;
+  top: 814px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 10px;
+  gap: 30px;
+  
+}
+.action-text{
+  max-width: 517px;
+  max-height: 203px;
+}
+.action-text h3{
+  margin: 20px 0px;
+  font-size: 30px;
+  font-style: bold;
+  text-wrap-style: normal;
+  text-decoration: none;
+}
+.action-text p {
+  margin: 20px 0px;
+  font-size: 18px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  line-height: 25px;
+  
+}
+.code-img{
+  max-width: 400px;
+  max-height: 350px;
+  display: inline-block;
+  margin-top: 120px;
+  border-radius: 20px;
+  
+  
+}
+.action-text a .btn{
+text-decoration: none;
+background: orangered;
+border: none;
+border-radius: 7px;
+font-family: montserrat-tx;
+font-size: 25px;
+font-weight: bold;
+color: white;
+width: 300px;
+height: 48px;
+padding: 5 30 5 30;
+display: inline-block;
+margin-top: 10px;
+transition: .4s ease;
+}
+
+.action-text a .btn:hover {
+  background: cadetblue;
+}
+.action-text span{
+  color: orangered;
+}
